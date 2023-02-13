@@ -6,7 +6,7 @@ const galleryMurkup = createGalleryMarkup(galleryItems);
 galleryContainer.insertAdjacentHTML("beforeend", galleryMurkup);
 
 const lightbox = new SimpleLightbox(".gallery__item", {
-  captionData: "alt",
+  captionsData: "alt",
   captionDelay: 250,
 });
 
